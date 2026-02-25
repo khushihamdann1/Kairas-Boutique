@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+.tops, .gowns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.acard {
+    width: 250px;
+    background-color: #f2e9df;
+    margin: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px #4b371e;
+}
+
+.acard:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 30px black;
+}
+
+.image {
+    transition: all 0.3s ease;
+    object-fit: cover;
+    width:100%;
+    height:350px;
+}
+
+.price {
+    margin-bottom:15px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price p {
+    color:#ff4d6d;
+    font-weight:600;
+    font-size: medium;
+}
+
+.price h3 {
+    color: black;
+    font-weight: 800;
+    font-size: large;
+}
+
+.image:hover {
+    transform: scale(1.1) translateY(-15px);
+}
+
+hr {
+    height: 4px;
+    background-color: #f4ede4;
+}
+
