@@ -451,4 +451,19 @@ button:hover {
     text-align: center;
     align-items: center;
 }
+@media screen and (max-width:600px){
+    #nav{
+        display: none;
+    }
+    #button{
+        display: none;
+    }
+    .navbar{
+        justify-content: center;
+    }
+    .menu{
+        position: absolute;
+        right: 10px;
+    }
+}
 
