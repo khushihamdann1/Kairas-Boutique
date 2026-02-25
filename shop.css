@@ -189,3 +189,15 @@ footer img {
 footer img:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 600px) {
+    nav a {
+        font-size: small;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
