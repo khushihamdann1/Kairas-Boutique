@@ -220,6 +220,9 @@ footer img:hover {
         padding: 7px 10px;
         border-radius: 15px;
     }
+    .contactlist a:hover {
+        font-size: 12px;
+    }
     .colist {
         height: 300px;
     }

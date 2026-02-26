@@ -379,14 +379,14 @@ button:hover {
         right: 8px;
     }
     .hi, .hello {
-        height: 220px;
+        height: 320px;
     }
     #box1, #box2, #box3, #box4 {
-        height: 200px;
+        height: 300px;
     }
     .descrip, .des {
         height: 198px;
-        font-size: 10px;
+        font-size: 12.7px;
         width: 200px;
         padding: 0 5px;
     }
@@ -403,7 +403,7 @@ button:hover {
     margin-right: 10px;
     }
     #main {
-        height: 1000px;
+        height: 1340px;
     }
     #ham h1 {
         font-size: 30px;
