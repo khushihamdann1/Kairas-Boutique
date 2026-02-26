@@ -256,184 +256,101 @@ button:hover {
     flex-direction: column;
 }
 
-.hi {
+.hi, .hello {
     width: 500px;
     width: 100%;
     height: 800px;
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
     padding: 10px 0px;
+}
+
+.hi {
+    flex-direction: row;
     transition: all 0.4s ease;
 }
 
 .hello{
-    width: 500px;
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
     flex-direction:row-reverse;
-    justify-content: space-between;
-    padding: 10px 0px;
 }
 
-/*-----Gowns: box 1-----*/
-#box1 {
+#box1, #box2, #box3, #box4 {
     width: 100%;
-    background-color: rgba(240, 190, 255, 0.39);
     max-width: 900px;
     height: 350px;
-    margin-left: 40px;
-    margin-right: 120px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 40px;
-    box-shadow: 3px 3px 15px 3px black;
     transition: all 0.4s ease;
+    box-shadow: 3px 3px 15px 3px black;
     backdrop-filter: blur(10px);
-
 }
 
-#box1:hover {
+#box1, #box3 {
+    margin-left: 40px;
+    margin-right: 120px;
+}
+
+#box2, #box4 {
+    margin-left: 120px;
+    margin-right: 40px;
+}
+
+#box1 {
+    background-color: rgba(240, 190, 255, 0.39);
+}
+
+#box2 {
+    background-color: rgba(255, 151, 151, 0.349);
+}
+
+#box3 {
+    background-color: rgba(190, 214, 255, 0.39);
+}
+
+#box4 {
+    background-color: rgba(255, 250, 190, 0.386);
+}
+
+#box1:hover, #box2:hover, #box3:hover, #box4:hover {
     transform: scale(1.05);
+}
+
+#gown, #crochet, #abaya, #top {
+    width: 200px;
+    height: 266.7px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 2px #000000;
+    transition: all 0.4s ease;
 }
 
 #gown {
-    width: 200px;
-    height: 266.7px;
     background-image: url(gown1.png);
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 40px;
-    box-shadow: 2px 2px 10px 2px #000000;
-    transition: all 0.4s ease;
-}
-
-#gown:hover {
-    transform: scale(1.1);
-}
-
-/*-----Crochet: box 2-----*/
-#box2 {
-    width: 100%;
-    background-color: rgba(255, 151, 151, 0.349);
-    max-width: 900px;
-    height: 350px;
-    margin-left: 120px;
-    margin-right: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 40px;
-    box-shadow: 3px 3px 15px 3px black;
-    transition: all 0.4s ease;
-    backdrop-filter: blur(10px);
-}
-
-#box2:hover {
-    transform: scale(1.05);
 }
 
 #crochet {
-    width: 200px;
-    height: 266.7px;
     background-image: url(crochet.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 40px;
-    box-shadow: 2px 2px 10px 2px #000000;
-    transition: all 0.4s ease;
-}
-
-#crochet:hover {
-    transform: scale(1.1);
-}
-
-/*-----Abaya: box 3-----*/
-#box3 {
-    width: 100%;
-    background-color: rgba(190, 214, 255, 0.39);
-    max-width: 900px;
-    height: 350px;
-    margin-left: 40px;
-    margin-right: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: all 0.4s ease;
-    border-radius: 40px;
-    box-shadow: 3px 3px 15px 3px black;
-    backdrop-filter: blur(10px);
-}
-
-#box3:hover {
-    transform: scale(1.05);
 }
 
 #abaya {
-    width: 200px;
-    height: 266.7px;
     background-image: url(abaya.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 40px;
-    box-shadow: 2px 2px 10px 2px #000000;
-    transition: all 0.4s ease;
-}
-
-#abaya:hover {
-    transform: scale(1.1);
-}
-
-/*-----Tops: box 4-----*/
-#box4 {
-    width: 100%;
-    background-color: rgba(255, 250, 190, 0.386);
-    max-width: 900px;
-    height: 350px;
-    margin-left: 120px;
-    margin-right: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 40px;
-    box-shadow: 3px 3px 15px 3px black;
-    transition: all 0.4s ease;
-    backdrop-filter: blur(10px);
-}
-
-#box4:hover {
-    transform: scale(1.05);
 }
 
 #top {
-    width: 200px;
-    height: 266.7px;
     background-image: url(tops.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 40px;
-    box-shadow: 2px 2px 10px 2px #000000;
-    transition: all 0.4s ease;
 }
 
-#top:hover {
+#gown:hover, #crochet:hover, #abaya:hover, #top:hover {
     transform: scale(1.1);
 }
 
-/*--Description of box 1 and 3--*/
-.descrip{
+.descrip, .des {
     max-width: 300px;
     height: 266.7px;
     padding: 0px 20px;
@@ -442,15 +359,6 @@ button:hover {
     align-items: center;
 }
 
-/*--Description of box 2 and 4--*/
-.des {
-    max-width: 300px;
-    height: 266.7px;
-    padding: 0px 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
 @media screen and (max-width:600px){
     #nav{
         display: none;
@@ -463,7 +371,49 @@ button:hover {
     }
     .menu{
         position: absolute;
-        right: 10px;
+        right: 8px;
+    }
+    .hi, .hello {
+        height: 220px;
+    }
+    #box1, #box2, #box3, #box4 {
+        height: 200px;
+    }
+    .descrip, .des {
+        height: 198px;
+        font-size: 10px;
+        width: 200px;
+        padding: 0 5px;
+    }
+    #gown, #crochet, #abaya, #top {
+        height: 165px;
+        width: 113.75px;
+    }
+    #box1, #box3 {
+    margin-left: 10px;
+    margin-right: 40px;
+    }
+    #box2, #box4 {
+    margin-left: 40px;
+    margin-right: 10px;
+    }
+    #main {
+        height: 1000px;
+    }
+    #ham h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #ham p{
+        font-size: medium;
+        padding: 10px 10px;
+    } 
+    #fpage button {
+        margin-top: 30px;
+        font-size: large;
+    }
+    .hehe img {
+        margin-right: 10px;
     }
 }
 
