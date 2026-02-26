@@ -256,6 +256,7 @@ button:hover {
     flex-direction: column;
 }
 
+/*-----Types of clothes sections-----*/
 .hi, .hello {
     width: 500px;
     width: 100%;
@@ -275,6 +276,7 @@ button:hover {
     flex-direction:row-reverse;
 }
 
+/*-----Boxes of description including photos-----*/
 #box1, #box2, #box3, #box4 {
     width: 100%;
     max-width: 900px;
@@ -318,6 +320,7 @@ button:hover {
     transform: scale(1.05);
 }
 
+/*-----Images of description section-----*/
 #gown, #crochet, #abaya, #top {
     width: 200px;
     height: 266.7px;
@@ -350,6 +353,7 @@ button:hover {
     transform: scale(1.1);
 }
 
+/*-----description-----*/
 .descrip, .des {
     max-width: 300px;
     height: 266.7px;
@@ -359,6 +363,7 @@ button:hover {
     align-items: center;
 }
 
+/*-----Changes for mobile users-----*/
 @media screen and (max-width:600px){
     #nav{
         display: none;
@@ -416,4 +421,3 @@ button:hover {
         margin-right: 10px;
     }
 }
-
